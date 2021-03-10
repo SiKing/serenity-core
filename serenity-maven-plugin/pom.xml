@@ -16,7 +16,7 @@
         <java.version>1.8</java.version>
         <maven.core.version>3.6.3</maven.core.version>
         <maven.repoorting.version>3.0</maven.repoorting.version>
-        <maven.plugin.version>3.5</maven.plugin.version>
+        <maven.plugin.version>3.6.0</maven.plugin.version>
     </properties>
 
     <build>
@@ -68,7 +68,7 @@
                 </exclusion>
                 <exclusion>
                     <artifactId>guice</artifactId>
-                    <groupId>*</groupId>
+                    <groupId>com.google.inject</groupId>
                 </exclusion>
                 <exclusion>
                     <groupId>org.codehaus.plexus</groupId>
@@ -125,7 +125,7 @@
             <exclusions>
                 <exclusion>
                     <artifactId>maven-artifact</artifactId>
-                    <groupId>*</groupId>
+                    <groupId>org.apache.maven</groupId>
                 </exclusion>
             </exclusions>
         </dependency>
